@@ -15,7 +15,7 @@ const inquiryRouter = require('./controllers/inquiries')
 const loginRouter = require('./controllers/login')
 const app = express()
 
-logger.info('connecting to',config.MONGODB_URI)
+logger.info('connecting to', config.MONGODB_URI)
 
 mongoose
   .connect(config.MONGODB_URI)

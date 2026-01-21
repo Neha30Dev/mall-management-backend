@@ -1,0 +1,6 @@
+MONGODB_URI=mongodb+srv://fullstack:hallogays@cluster0.8btagav.mongodb.net/calender?retryWrites=true&w=majority&appName=Cluster0
+PORT=3001
+
+# MONGODB_URI=mongodb+srv://fullstack:hallogays@cluster0.8btagav.mongodb.net/testNoteApp?retryWrites=true&w=majority&appName=Cluster0
+
+# SECRET=me
