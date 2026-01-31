@@ -3,6 +3,7 @@ const Service = require('../models/service')
 
 serviceRouter.get('/all',async(request,response) => {
   const services = await Service.find({})
+  //console.log('Fetched: ',services)
   response.json(services)
 })
 

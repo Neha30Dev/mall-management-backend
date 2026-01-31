@@ -28,3 +28,5 @@ forgetRouter.put('/', async (request, response) => {
     return response.status(400).json({ error: error.message })
   }
 })
+
+module.exports=forgetRouter

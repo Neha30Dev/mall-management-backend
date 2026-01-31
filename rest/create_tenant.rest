@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/tenants
+Content-Type: application/json
+
+{
+  "username": "tenant_001",
+  "name": "Rahul Sharma",
+  "email": "rahul.sharma@gmail.com",
+  "phone": "9876543210",
+  "password": "123",
+  "shopName": "Green Mart",
+  "rent": 30000
+}
